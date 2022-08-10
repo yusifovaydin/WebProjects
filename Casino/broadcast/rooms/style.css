@@ -1,0 +1,29 @@
+html,body{margin:0;border:0;width:99%;background: #08091d;}
+body{padding:2% 0 0 2%;}
+*{border:0px solid red;}
+#header{width:100%;display:flex;}
+
+#header a{color:aqua;width:5%;font-family:"loganhoul"; font-size: 34px;user-select: none;text-decoration:#bcbcbc;}
+
+#srch{padding-bottom:8px;height:35px;text-align: center;justify-content: center; background: #0f1132;width:25%;margin-left:9.5%;border-radius: 10px;position: relative;}
+#srch img{width: 20px;height:20px;position: absolute;left:15px;top:12px;}
+#srch input{position: absolute;background: transparent;color:white;width:80%;font-family: "arial";font-weight: bold;left:40px;top:14px;border:0;outline: 0;user-select: none;}
+
+#flag{width:40px;height:40px;margin-left:45%;}
+#flag img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+
+#notfic {width:40px;height:40px;position: relative;margin-left:2%;}
+#notfic img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+#notfic span{position: absolute;top:1px;right: 5px; padding:1px;font-size:13px;font-weight:bold;background: red;border-radius: 8px;height: 14px !important;cursor:pointer;user-select: none;color:white;font-family: arial;}
+
+#profile{width:40px;height:40px;margin-left:2%;}
+#profile img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+
+#main{height:600px;width:100%;margin-top:40px;display: flex;}
+#mainleft{height:100%;width:65%;margin-right:3%;border-radius: 12px;}
+#mainleft video{width:100%;outline:none;border:0;border-radius: 12px;}
+
+@font-face{
+    font-family: "loganhoul";
+    src: url("../../fonts/longhaul/Longhaul.ttf");
+}

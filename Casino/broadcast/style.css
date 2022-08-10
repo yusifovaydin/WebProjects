@@ -1,0 +1,59 @@
+html,body{margin:0;border:0;width:99%;background: #08091d;}
+body{padding:2% 0 0 2%;}
+*{border:0px solid red;outline: none;}
+#header{width:100%;display:flex;}
+
+#header a{color:aqua;width:5%;font-family:"loganhoul"; font-size: 34px;user-select: none;text-decoration:#08091d;}
+
+#srch{padding-bottom:8px;height:35px;text-align: center;justify-content: center; background: #0f1132;width:25%;margin-left:9.5%;border-radius: 10px;position: relative;}
+#srch img{width: 20px;height:20px;position: absolute;left:15px;top:12px;}
+#srch input{position: absolute;background: transparent;color:white;width:80%;font-family: "arial";font-weight: bold;left:40px;top:14px;border:0;outline: 0;user-select: none;}
+
+#flag{width:40px;height:40px;margin-left:42%;}
+#flag img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+
+#notfic {width:40px;height:40px;position: relative;margin-left:2%;}
+#notfic img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+#notfic span{position: absolute;top:1px;right: 5px; padding:1px;font-size:13px;font-weight:bold;background: red;border-radius: 8px;height: 14px !important;cursor:pointer;user-select: none;color:white;font-family: arial;}
+
+#profile{width:40px;height:40px;margin-left:2%;}
+#profile img{border-radius: 10px;width:40px;height:40px;cursor: pointer;}
+
+#main{width:100%;display: flex;margin-top: 20px;margin-right:0;}
+#mainleft{width:17%;height:100%;color:#bcbcbc;font-family: arial;font-weight: bold;user-select: none;}
+
+#navg{width:100%;}
+#navg div{margin-bottom: 20px;}
+#navg a{padding-left: 15%;position: relative;}
+#navg img{width:20px;height:20px;position: absolute;left:0;}
+#navg div a{font-size:16px;color:#e3e4f8;cursor: pointer;text-decoration:none;width:100%;margin-bottom:20px;}
+#navg div a:target img{  filter: invert(48%) sepia(10%) saturate(3207%) hue-rotate(190deg) brightness(80%) contrast(120%);}
+#navg a:target {color:#3745c5;}
+
+#popcatg{width:100%;margin-top:20px;}
+#popcatg a{cursor:pointer;display:block;background:#0f1132;border-radius: 8px;padding:10px;font-size:16px;width:80%;}
+#popcatg a:hover{color:#3745c5;}
+
+#reklam{border-radius: 12px;border:2px solid blue;height:300px;width:90%;margin-top:10px;}
+
+#mainright{ font-family: arial;color:#bcbcbc;padding:2%;width:100%;background:  #0f1132;border-top-left-radius: 12px;border-bottom-left-radius: 12px;}
+#mainright h5{font-weight: bold;}
+#brod{width:100%;display: grid;grid-template-columns: auto auto auto;grid-gap: 50px;}
+.brodcast{height:200px;border-radius: 15px;position: relative; text-overflow:clip;overflow: hidden;  
+cursor:pointer;}
+.brodcast video{height:100%;border-radius: 15px;transition: all .4s;}
+.brodcast img{width:50px;height:50px;position: absolute;top:5%;left:4%;}
+.brodcast h3{position: absolute;bottom:-4%;left:5%;background:#0f1132;border-radius: 8px;padding:8px;max-width:54%;overflow: hidden;text-overflow: ellipsis;}
+.brodcast a{ width:54%;height:60%;word-wrap: break-word; font-weight:bold;font-family: arial; user-select: none;opacity:0%;transition: all .4s;position: absolute;top:35%;left:5%;overflow: hidden;text-overflow: ellipsis;}
+.brodcast:hover a{opacity:100%;}
+.brodcast:hover video{filter:blur(2px) brightness(0.2);}
+.brodcast:hover h3{opacity:0;}
+
+::placeholder{color:#bcbcbc;}
+
+@font-face{
+    font-family: "loganhoul";
+    src: url("../fonts/longhaul/Longhaul.ttf");
+}
+
+
