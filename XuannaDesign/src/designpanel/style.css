@@ -1,0 +1,16 @@
+html,body{width:100%;background: #171717;margin:0;}
+body{display: flex;justify-content:center;align-items: center;padding-top:17%;color:white;font-family: Segoe UI;}
+#main{width: auto;width:40%;font-size:30px;}
+form{position: relative;}
+form div{margin-bottom:20px;}
+input{font-size: 30px;position: absolute;right:0;background: none;outline: none;border:1px solid #707070;color:white;}
+button{font-size:30px;color:#E28B1A;background: #13100D;outline: none;border:0px solid #707070;padding:20px;width:100%;font-weight: bold;cursor:pointer;}
+
+@font-face{
+	font-family: Priva Two;
+	src: url("../../fonts/PrivaTwoPro.otf");
+}
+@font-face{
+	font-family: Swis721 BlkCn BT;
+	src: url("../../fonts/swiss 721 black condensed bt.ttf");
+}

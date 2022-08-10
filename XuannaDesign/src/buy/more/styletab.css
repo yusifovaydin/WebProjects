@@ -1,0 +1,53 @@
+html,body{width:100%;background: #171717;margin:0;}
+body{text-align: center;}
+ .logo{position:relative;height:150px;text-align: center;}
+#xuanna{
+	user-select: none;
+	font-family:Priva Two;
+	font-weight:200;
+	color:white;
+    font-size:50px;
+    margin:0;
+    position: absolute;
+    top:26%;
+    left:12%;
+}
+#design{
+	user-select: none;
+	font-family: Agency FB;
+	font-weight: 300;
+	color:#EDBF40;
+    position: absolute;
+    top:60%;
+    left:12%;
+    margin:0;
+	transform: scale(1,0.6);
+    font-size:20px;
+}
+
+#main{width:80%;margin-left:10%;}
+
+#leftdiv{width:100%;text-align: center;display: flex;}
+#leftimg{border:1px solid #707070 ;width:100%;}
+#divimgsright{width:10%;padding:0;width:20%;}
+#imgsright{width:65%;border:1px solid #707070;cursor:pointer;margin:1.98% 1.98% 0 0;}
+
+#right{width:100%;margin-right:30px;position:relative;margin-top:70px;}
+form {text-align: left;height: 260px;}
+#right a{color:#F5F5F5;font-family: Segoe UI;text-decoration: none;cursor:text;position:relative;font-size:20px;display:block;margin:0;padding:0;}
+#right select{background:none;color:white;font-size:20px;border:0;outline: none;position: absolute;right:0px;top:95px;}
+#right option{color:#f5f5f5;background:#111;border:0;outline:0;}
+#right input{background: none;color:white;border:0px;outline: none;width:60px;font-size:20px;position: absolute;top:140px;right:0px;}
+#rightprice{display:flex;text-align: right;position: absolute;top:180px;right:0;}
+#right h3{color:#E28B1A;font-family: Segoe UI;font-size:20px;font-weight: 200;bottom:0px;margin:0;}
+#right button{cursor:pointer;color:#E28B1A;background: #0C0B0B;outline: none;border:0px;font-family: Segoe UI;padding:2px;font-size:20px;width:100%;position:absolute;bottom:0;right:0;}
+
+
+@font-face{
+	font-family: Priva Two;
+	src: url("../../../fonts/PrivaTwoPro.otf");
+}
+@font-face{
+	font-family: Swis721 BlkCn BT;
+	src: url("../../../fonts/swiss 721 black condensed bt.ttf");
+}

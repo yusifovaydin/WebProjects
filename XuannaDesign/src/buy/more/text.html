@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styletest.css">
+<link rel="stylesheet" href="styletest2.css">
+<style>
+    html,body{
+        background:#101010;
+    }
+</style>
+<body>
+
+<div class="w3-content" style="width:40%;display:flex;margin:20px;">
+    <div style="border:1px solid #707070 ;width:80%">
+        <img class="mySlides" src="60d628ed2a0e7.png" style="width:100%;display:none">
+        <img class="mySlides" src="60d629649b650.png" style="width:100%">
+        <img class="mySlides" src="60d6295964266.png" style="width:100%;display:none">
+        <img class="mySlides" src="60d6295964266.png" style="width:100%;display:none">
+        <img class="mySlides" src="60d6295964266.png" style="width:100%;display:none">
+        <img class="mySlides" src="60d6295964266.png" style="width:100%;display:none">
+    </div>
+  
+
+  <div style="width:10%;height:100%;margin-left:20px;padding:0;">
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d628ed2a0e7.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(1)">
+    </div>
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d629649b650.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(2)">
+    </div>
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d6295964266.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(3)">
+    </div>
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d6295964266.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(4)">
+    </div>
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d6295964266.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(5)">
+    </div>
+    <div>
+      <img class="demo w3-opacity w3-hover-opacity-off" src="60d6295964266.png" style="width:100%;border:1px solid #707070;cursor:pointer;margin-bottom:20px;" onclick="currentDiv(6)">
+    </div>
+    
+  </div>
+</div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "logo" onclick="location.href='../'">
+		<h1 id = "xuanna">XUANNA</h1>
+		<h1 id = "design">D&nbsp; &nbsp;E&nbsp; &nbsp;S&nbsp; &nbsp;I&nbsp; &nbsp;G&nbsp; &nbsp;N</h1>
+	</div>
+    <div id="right">
+        <div><a href="../orders/">SİFARİŞLƏR (65)</a></div><br>
+        <div><a href="../postedit/">PAYLAŞIMLAR</a></div>
+    </div>
+    <form action="./postshare.php" method="POST" enctype="multipart/form-data">
+<div>
+
+    <input type="file" id="file" name="sekil[]" style="display:none;" multiple ><label for="file">ŞƏKİLLƏRİ SEÇ</label>
+</div><br>
+<div>
+    <label for="name">AD: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="prodname"><br>
+</div><br>
+<div>
+    <label for="price">QİYMƏT: </label><input type="number" name="prodprice"><br>
+</div><br>
+    <button type="submit">Paylaş</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+html,body{width:100%;background: #171717;margin:0;padding:0;}
+body{text-align: center;}
+ .logo{position:relative;height:150px;text-align: center;}
+#xuanna{
+	user-select: none;
+	font-family:Priva Two;
+	font-weight:200;
+	color:white;
+    font-size:50px;
+    margin:0;
+    position: absolute;
+    top:26%;
+    left:10%;
+}
+#design{
+	user-select: none;
+	font-family: Agency FB;
+	font-weight: 300;
+	color:#EDBF40;
+    position: absolute;
+    top:60%;
+    left:10%;
+    margin:0;
+	transform: scale(1,0.6);
+    font-size:20px;
+}
+
+#main{width:100%;margin-top:10px;}
+#top{width:100%;}
+#td1{background: #000;color:#DB7B00;font-weight:500;font-size:30px;font-family: Segoe UI;text-align: center;padding:10px;}
+#td2{text-align: center;color:#CEC2C2;font-family: Segoe UI;font-size:27px;padding:20px;font-weight: 100;}
+
+#bottom{margin-left:9%;margin-top:10px;width:90%;text-align: left;}
+#bottom span{color:#BFBFBF;font-family: Segoe UI;font-size:25px;padding:0;margin:0;}
+#btmdiv{width:100%;margin-top:5px;position:relative;height:100%}
+#btmdiv div{border:1px solid #707070;background:#141414;border-radius:12px;width:90%;float:left;display: flex;align-items: center;margin-right:5%;margin-top:10px;padding:6px;}
+#bottom div img{width:40px;margin-right:20px;}
+#bottom div a{color:#F5F5F5;font-family:Segoe UI;font-size:20px;}
+
+
+@keyframes marquee {
+    from {transform: translateX(100%); }
+    to {transform: translateX(-250%); }
+  }
+@font-face{
+	font-family: Priva Two;
+	src: url("../../../../../fonts/PrivaTwoPro.otf");
+}
+@font-face{
+	font-family: Swis721 BlkCn BT;
+	src: url("../../../../../fonts/swiss 721 black condensed bt.ttf");
+}

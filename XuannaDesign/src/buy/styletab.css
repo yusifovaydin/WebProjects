@@ -1,0 +1,41 @@
+html,body{width:100%;background: #171717;margin:0;}
+body{text-align: center;}
+ .logo{position:relative;height:150px;text-align: center;}
+#xuanna{
+	user-select: none;
+	font-family:Priva Two;
+	font-weight:200;
+	color:white;
+    font-size:50px;
+    margin:0;
+    position: absolute;
+    top:26%;
+    left:12%;
+}
+#design{
+	user-select: none;
+	font-family: Agency FB;
+	font-weight: 300;
+	color:#EDBF40;
+    position: absolute;
+    top:60%;
+    left:12%;
+    margin:0;
+	transform: scale(1,0.6);
+    font-size:20px;
+}
+
+#products{display: grid;grid-template-columns: 50% 50%;}
+.product{margin-bottom:30px;}
+.product img{width:80%;margin:0;}
+.product h4{color:#F5F5F5;font-family: Segoe UI;margin:0;font-size:30px;font-weight: 100;}
+
+.prodown{top:-20px;margin-top:-20px;}
+@font-face{
+	font-family: Priva Two;
+	src: url("../../fonts/PrivaTwoPro.otf");
+}
+@font-face{
+	font-family: Swis721 BlkCn BT;
+	src: url("../../fonts/swiss 721 black condensed bt.ttf");
+}

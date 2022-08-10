@@ -1,0 +1,71 @@
+html,body{width:100%;background: #171717;margin:0;padding:0;}
+body{text-align: center;}
+ .logo{position:relative;height:150px;text-align: center;}
+#xuanna{
+	user-select: none;
+	font-family:Priva Two;
+	font-weight:200;
+	color:white;
+    font-size:50px;
+    margin:0;
+    position: absolute;
+    top:26%;
+    left:25%;
+}
+#design{
+	user-select: none;
+	font-family: Agency FB;
+	font-weight: 300;
+	color:#EDBF40;
+    position: absolute;
+    top:60%;
+    left:25%;
+    margin:0;
+	transform: scale(1,0.6);
+    font-size:20px;
+}
+
+#header{background: #111;position:absolute;top:0;overflow: hidden;height:30px;top:140px;font-size:20px;width:100%;}
+#header p{ animation: marquee 8s linear infinite;color:#fff;font-family:Segoe UI;width:100%;padding:0;margin:0;white-space: nowrap; }
+#header y0{color:#EDBF40;}
+
+#main{margin-top:30px;}
+#mtop{text-align:left;}
+#mtop div{width:100%;position: relative;}
+#mtop img{width:6%;position:absolute;left:5%;top:7px;}
+#mtop a{margin-left:13%;font-size:18px;color:#f5f5f5;font-family: Segoe UI;white-space: nowrap; }
+
+#img2{display:none;}
+#h2{display:none;}
+#f2{opacity:.6;}
+
+#mbottom{padding-left:0px;}
+#mbottomleft{text-align: left;padding:0 27px 0 27px;}
+#mbottomleft h3{font-family: Segoe UI;color:#f5f5f5; }
+#mbottomleft y{color:#F9E17E;}
+
+.locdiv{margin:0px;padding:0px;display:flex;align-items: center;font-family: Segoe UI;color:#F5F5F5;width:100%;font-size:12px;}
+.locdiv div{width:15px;height:15px;border-radius:2px;border:1px solid #fff;margin-right:10px;display: flex;align-items: center;justify-content: center;}
+.locdiv div img{ width:70%;display:none;}
+
+#mbottomright{width:100%;position: relative;margin-top:20px;}
+#mbottomright f{color:#fff;font-family:Segoe UI;font-size:24px;}
+#mbottomright #locc{position:relative;bottom:86px;}
+#mbottomright input{color:#fff;border:1px solid #fff;background: none;font-size:24px;outline: none;margin-bottom:20px;width:51%;margin-right:27px;}
+#mbottomright textarea{background: none;font-size:21px;color:#fff;font-family: Segoe UI;border:1px solid white;outline: none;resize:none;width:51%;margin-right:27px;height:100px}
+#mbottomright span{color:#777;font-family:Segoe UI;font-size:18px;position:absolute;right:27px;bottom:105px}
+#mbottomright a{color:#E28B1A;font-family:Segoe UI;font-size:30px;position:absolute;right:27px;bottom:67px}
+#mbottomright button{background: black;color:#E28B1A;border:0;outline:none;padding:16px;cursor:pointer;width:100%;font-size:28px;margin-top:62px;align-items: center;justify-content: right;}
+
+@keyframes marquee {
+    from {transform: translateX(100%); }
+    to {transform: translateX(-250%); }
+  }
+@font-face{
+	font-family: Priva Two;
+	src: url("../../../../fonts/PrivaTwoPro.otf");
+}
+@font-face{
+	font-family: Swis721 BlkCn BT;
+	src: url("../../../../fonts/swiss 721 black condensed bt.ttf");
+}
