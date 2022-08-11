@@ -1,0 +1,11 @@
+
+html,body{margin:0;width:100%}
+body{width:100%;padding:20px;display: flex;align-items: center;position: relative;}
+#back{width:40px;filter: invert(57%) sepia(86%) saturate(364%) hue-rotate(122deg) brightness(95%) contrast(90%);cursor: pointer;position: absolute;top:20px}
+#mid{width:90%;margin-top:120px}
+h4{font-weight: bold;font-family: arial;margin:5px;}
+#mid div div{padding:8px;border:1px solid #777;margin-bottom:30px;border-radius: 8px;display: flex;align-items: center;}
+#mid div div img{margin-right:12px}
+#mid div div input{width:80%;font-size:20px;outline: none;border:0;}
+#mid img{width:30px;filter: invert(57%) sepia(86%) saturate(364%) hue-rotate(122deg) brightness(95%) contrast(90%);}
+button{width:100%;background: navy;color:white;font-weight: bold;outline: none;border:0;padding:20px;border-radius: 12px;cursor: pointer;margin-top:10px}

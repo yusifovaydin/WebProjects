@@ -1,0 +1,14 @@
+html,body{padding:0;margin:0;background:#29303a ;}
+#all{width:100%;height:100%}
+#main{width:100%;position: relative;background:#29303a;height:540px;color:#bcbcbc;font-family: arial;padding-top:30px;}
+#con{font-size: 50px;margin:20px}
+#main img{width:30px;height:30px;filter:invert() opacity(.7);}
+#contact{padding:25px}
+#contact div{display: flex;align-items: center;margin-top:40px}
+#contact div img{margin-right:20px;}
+#iconm{display: flex;}
+#iconm img{width:50px;height: 50px;padding:11%;}
+#navbar{width:100%;background: #353f4b;height:80px;display: flex;position:fixed;bottom:0;}
+#navbar div{width:25%;display: flex;align-items: center;justify-content: center;}
+#navbar img{width:32%;height:42%;filter: invert();opacity: 0.5;}
+#inbar{opacity: 1 !important;}

@@ -1,0 +1,9 @@
+#main{display:none;}
+#header{display:none;}
+#rest{display:none;}
+#regs{display:none;}
+#login{display:none;}
+#footer{display: none;}
+html,body{width:100%;height: 100%;padding:0;margin:0;}
+#phon{padding:0px;margin:0px;width:100%;height:100%;position: relative;}
+#navbar{position: absolute;bottom:0;width:100%;height:15%;background: red;display: flex;}

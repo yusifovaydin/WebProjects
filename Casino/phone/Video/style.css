@@ -1,0 +1,14 @@
+body,html{margin:0;}
+video{width:100%;height:100%}
+body,html{margin:0;}
+body{padding:10px;}
+#live{display:grid;
+    background:whitesmoke;
+    grid-template-columns:auto auto;
+    grid-gap: 10px;
+    column-gap: 10px;
+}
+#live div{border:1px solid #555;height:350px;position: relative;background: black;}
+#live a{ overflow: hidden;
+    text-overflow: ellipsis; position: absolute;bottom:0;left:0;color:white;font-weight: bold;background: black;width:90%;text-align: center;font-family: arial;font-size: 24px;opacity:.6;padding:5%}
+    

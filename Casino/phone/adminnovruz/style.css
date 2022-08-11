@@ -1,0 +1,14 @@
+body{display: flex;align-items: center;justify-content: center;width:100%;height:100%;padding-top: 40%;}
+#login input{outline: none;border:1px solid #555;padding:20px;margin:20px;}
+#login button{outline: none;border:1px solid #111;padding:10px;width:84%;margin-left:8%}
+
+
+#users{position:relative;border:1px solid black;margin:10px;padding:10px;width:88%;}
+#dtop{display: flex;align-items: center;justify-content: center;}
+#dbottom{display: flex;}
+#dbottom div{width:100%;}
+#dbottom div button{width:100%;}
+#usleft{margin-right:20px}
+#usmiddle{margin-right:20px}
+
+.divs{border:0;background: #636bf8;font-weight: bold;font-family: arial;padding:10px;color:white;margin:10px}
